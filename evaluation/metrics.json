@@ -1,0 +1,20 @@
+{
+    "accuracy": 0.6726546906187625,
+    "precision": 0.6028552821259473,
+    "recall": 0.6726546906187625,
+    "f1_score": 0.6105481695752312,
+    "accuracy_percentage": 67.26546906187625,
+    "precision_percentage": 60.28552821259473,
+    "recall_percentage": 67.26546906187625,
+    "f1_score_percentage": 61.054816957523116,
+    "classes": [
+        "akiec",
+        "bcc",
+        "bkl",
+        "df",
+        "melanoma",
+        "nv",
+        "vasc"
+    ],
+    "test_samples": 1503
+}

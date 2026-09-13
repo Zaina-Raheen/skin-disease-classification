@@ -1,0 +1,10 @@
+Flask==3.0.3
+flask-cors==4.0.1
+python-dotenv==1.0.1
+numpy==1.26.4
+Pillow==10.4.0
+pytest==8.3.2
+
+# Only needed once the real final_model.h5 is loaded (mock mode runs
+# without it, but install it before switching to real mode):
+tensorflow==2.17.0

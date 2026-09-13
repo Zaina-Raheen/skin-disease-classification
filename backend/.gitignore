@@ -1,0 +1,24 @@
+# Environment
+.env
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Uploaded images (runtime, not source)
+uploads/*
+!uploads/.gitkeep
+
+# Model file - large binary, usually handled separately (Git LFS or direct
+# upload to the deployment platform) rather than committed to the repo.
+model/*.h5
+model/*.keras
+!model/.gitkeep
+
+# OS/editor junk
+.DS_Store
+.vscode/
+.idea/
+
+# Pytest cache
+.pytest_cache/
